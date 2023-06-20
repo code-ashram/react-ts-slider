@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider {
+    width: 600px;
+}
+
+.slider__window {
+    height: 400px;
+}
+
+.slide {
+    display: block;
+    height: 360px;
+}
