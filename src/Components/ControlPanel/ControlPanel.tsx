@@ -1,12 +1,12 @@
-import {FC, MouseEventHandler} from "react";
+import {FC} from "react";
 import Button from "../Button";
 import Pagination from "../Pagination";
 import data from "../../data.ts";
 
 type Props = {
     index: number,
-    onPressPrev: MouseEventHandler<HTMLButtonElement>,
-    onPressNext: MouseEventHandler<HTMLButtonElement>,
+    onPressPrev: () => void,
+    onPressNext: () => void,
 }
 
 const ControlPanel: FC<Props> = ({index, onPressPrev, onPressNext}) =>
